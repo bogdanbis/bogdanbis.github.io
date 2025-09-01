@@ -5,13 +5,16 @@
 @import 'typography';
 
 body {
-	margin: var(--spacer-l);
 	height: 100vh;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: var(--text-color);
 	background: var(--background);
-	// background: radial-gradient(circle, var(--background-highlight) 0%, black 150%);
+	background: radial-gradient(circle, var(--background-highlight) 0%, black 150%);
+
+	@media only screen and (min-width: 764px) {
+		margin: var(--spacer-l);
+	}
 }
 
 header, section {
