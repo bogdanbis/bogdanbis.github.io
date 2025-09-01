@@ -1,0 +1,7 @@
+:root {
+	--text-color-hue: 26, 91%;
+	--text-color: hsl(var(--text-color-hue), 60%);
+	--text-color-highlight: hsl(var(--text-color-hue), 75%);
+	--background: black;
+	--background-highlight: hsl(var(--text-color-hue), 7.5%);
+}

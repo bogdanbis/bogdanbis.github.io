@@ -1,0 +1,25 @@
+@import 'fonts';
+@import 'colors';
+@import 'dimensions';
+
+@import 'typography';
+
+body {
+	margin: var(--spacer-l);
+	height: 100vh;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: var(--text-color);
+	background: var(--background);
+	// background: radial-gradient(circle, var(--background-highlight) 0%, black 150%);
+}
+
+header, section {
+	margin-bottom: var(--spacer-xl);
+}
+
+ul {
+	margin: 0;
+	list-style: "> ";
+	padding-left: 2ch;
+}

@@ -1,0 +1,60 @@
+body {
+    font-family: 'Terminus', monospace;
+    font-size: 24px;
+}
+
+:root {
+    --font-size-h1: 40px;
+    --font-size-h2: 32px;
+    --font-size-h3: 28px;
+    --font-size-h4: 24px;
+    --font-size-h5: 20px;
+}
+
+small {
+    font-size: small;
+    color: var(--text-secondary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+}
+
+h4 {
+    font-size: var(--font-size-h4);
+}
+
+h5 {
+    font-size: var(--font-size-h5);
+}
+
+p {
+    margin: 0;
+}
+
+@for $i from 3 through 7 {
+    .fw-#{$i}00 {
+        font-weight: #{$i}00 !important;
+    }
+}
+
+.highlight {
+    color: var(--text-color-highlight);
+}
