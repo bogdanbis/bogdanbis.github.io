@@ -42,7 +42,7 @@ export default function Home() {
             <section>
                 <h2>{'>'} Core Expertise</h2>
                 <ul>
-                    <li>Java, Spring, Spring Boot</li>
+                    <li>Java, Kotlin, Spring, Spring Boot, JavaEE</li>
                     <li>JavaScript, HTML, CSS, Vue & React</li>
                     <li>Relational Databases - PostgreSQL, Oracle</li>
                     <li>Agile Development, Domain Driven Design, Behaviour Driven Design </li>
