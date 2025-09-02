@@ -22,7 +22,7 @@ export default function Home() {
             <section>
                 <h2>{'>'} About me</h2>
                 <p className="width-80ch">
-                    I'm a Software Developer with several years of hands-on experience building robust,
+                    I{'\''}m a Software Developer with several years of hands-on experience building robust,
                     full-stack applications — primarily in the banking and finance domain.
                 </p>
             </section>
