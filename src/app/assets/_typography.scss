@@ -1,5 +1,6 @@
 body {
     font-family: 'Terminus', monospace;
+    
     @media only screen and (min-width: 764px) {
         font-size: 24px;
     }
@@ -14,7 +15,7 @@ body {
 }
 
 small {
-    font-size: small;
+    font-size: smaller;
     color: var(--text-secondary-color);
 }
 

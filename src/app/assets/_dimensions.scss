@@ -112,3 +112,7 @@ $spacers: (
 		width: $i * 1% !important;
 	}
 }
+
+.width-80ch {
+	max-width: 80ch;
+}

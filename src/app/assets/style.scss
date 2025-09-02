@@ -4,8 +4,14 @@
 
 @import 'typography';
 
+html {
+	background: var(--background);
+}
+
 body {
-	height: 100vh;
+	margin: 0;
+	padding: var(--spacer-s);
+	height: calc(100vh - var(--spacer-s) * 2);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: var(--text-color);
@@ -13,16 +19,29 @@ body {
 	background: radial-gradient(circle, var(--background-highlight) 0%, black 150%);
 
 	@media only screen and (min-width: 764px) {
-		margin: var(--spacer-l);
+		padding: var(--spacer-l);
+		height: calc(100vh - var(--spacer-l) * 2);
 	}
 }
 
-header, section {
+header,
+section {
 	margin-bottom: var(--spacer-xl);
 }
 
 ul {
 	margin: 0;
-	list-style: "> ";
-	padding-left: 2ch;
+	padding-left: 3ch;
+
+	li {
+		list-style: "├─ ";
+
+		&.indented {
+			list-style: "│  ";
+		}
+
+		&:last-child {
+			list-style: "└─ ";
+		}
+	}
 }

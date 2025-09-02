@@ -16,11 +16,31 @@ export default function Home() {
             </header>
 
             <section>
-                <h1>{'>'} <CleanSoftwareTypewriter /></h1>
+                <h2>{'>'} <CleanSoftwareTypewriter /></h2>
             </section>
 
             <section>
-                <h2>Core Expertise</h2>
+                <h2>{'>'} About me</h2>
+                <p className="width-80ch">
+                    I'm a Software Developer with several years of hands-on experience building robust,
+                    full-stack applications — primarily in the banking and finance domain.
+                </p>
+            </section>
+
+            <section>
+                <h2>{'>'} What I offer</h2>
+                <ul>
+                    <li>End-to-end web application development</li>
+                    <li>Financial systems design and implementation</li>
+                    <li>Document processing and generation</li>
+                    <li className="indented"><small>└─ Customisable generation through dynamic templates</small></li>
+                    <li>Highly customisable business workflows<br />
+                        <small>└─ Flow & Formula administration panel</small></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>{'>'} Core Expertise</h2>
                 <ul>
                     <li>Java, Spring, Spring Boot</li>
                     <li>JavaScript, HTML, CSS, Vue & React</li>
